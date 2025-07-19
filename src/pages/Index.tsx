@@ -176,7 +176,11 @@ const Index = () => {
               <div className="relative">
                 <div className="w-80 h-80 rounded-full bg-gradient-to-r from-tech-blue/20 to-tech-purple/20 animate-glow"></div>
                 <div className="absolute inset-4 rounded-full bg-gradient-to-r from-tech-purple/30 to-tech-cyan/30 animate-pulse"></div>
-                <img src="aadil2.jpg"/>
+                <img
+                    src="/aadil2.jpg"
+                    alt="Aadil's Profile"
+                    className="absolute inset-8 rounded-full object-cover w-[224px] h-[224px] border-4 border-white shadow-xl"
+                />
               </div>
             </div>
           </div>
