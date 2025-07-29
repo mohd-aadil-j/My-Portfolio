@@ -179,7 +179,7 @@ const Index = () => {
                   <img
                     src="/aadil.jpg"
                     alt="Aadil's Profile"
-                    className="absolute inset-8 rounded-full object-cover w-[400px] h-[400px] border-4 border-white shadow-xl"
+                    className="absolute inset-8 rounded-full object-cover w-[300px] h-[300px] border-4 border-white shadow-xl"
                   />
               </div>
             </div>
