@@ -176,11 +176,31 @@ const Index = () => {
               <div className="relative">
                 <div className="w-80 h-80 rounded-full bg-gradient-to-r from-tech-blue/20 to-tech-purple/20 animate-glow"></div>
                 <div className="absolute inset-4 rounded-full bg-gradient-to-r from-tech-purple/30 to-tech-cyan/30 animate-pulse"></div>
-                  <img
-                    src="/aadil.jpg"
-                    alt="Aadil's Profile"
-                    className="absolute inset-8 rounded-full object-cover w-[224px] h-[224px] border-4 border-white shadow-xl"
-                  />
+                  <div
+                    style={{
+                      width: '200px',
+                      height: '200px',
+                      borderRadius: '50%',
+                      background: 'radial-gradient(circle at center, #0ff, #001)',
+                      display: 'flex',
+                      alignItems: 'center',
+                      justifyContent: 'center',
+                      padding: '6px',
+                      boxShadow: '0 0 30px #0ff',
+                    }}
+                  >
+                    <img
+                      src="/aadil.jpg"
+                      alt="Profile"
+                      style={{
+                        width: '100%',
+                        height: '100%',
+                        objectFit: 'cover',
+                        borderRadius: '50%',
+                        border: '3px solid white',
+                      }}
+                    />
+                  </div>
               </div>
             </div>
           </div>
