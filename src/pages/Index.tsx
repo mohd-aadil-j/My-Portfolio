@@ -178,7 +178,7 @@ const Index = () => {
                 <div className="absolute inset-4 rounded-full bg-gradient-to-r from-tech-purple/30 to-tech-cyan/30 animate-pulse"></div>
                 <img
                     src="/aadil.jpg"
-                    alt="Aadil'sProfile"
+                    alt="Aadil Profile"
                     className="absolute inset-8 rounded-full object-cover w-[224px] h-[224px] border-4 border-white shadow-xl"
                 />
               </div>
